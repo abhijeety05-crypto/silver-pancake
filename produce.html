@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farm Produce | Fresh Mushrooms, Dragon Fruit, Grapes & Kiwi | Rewari Farm Estates</title>
+  <meta name="description" content="Direct from our 50-acre Rewari farm. Crisp button mushrooms, trellis-grown dragon fruit, table grapes, and kiwi harvested daily and delivered across Delhi NCR.">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: { 900: '#0d2114', 800: '#143320', 700: '#1c452b', 600: '#265c3b' },
+            leaf: { 600: '#2f7a47', 500: '#3c9b5a', 400: '#55b774', 100: '#eaf6ee', 50: '#f4faf6' },
+            cream: { 100: '#fbf9f3', 200: '#f5f0e3', 300: '#ebe2cf', 400: '#dfd4bd' },
+            clay: { 800: '#42291d', 700: '#5d3b2a', 600: '#7b4f3a', 100: '#f6eee8' },
+            ghee: { 600: '#b88321', 500: '#d49c2a', 400: '#ebb84b', 100: '#fdf6e6', 50: '#fffcf5' }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            display: ['"Fraunces"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Rewari Farm Estates - Agricultural Produce",
+    "image": "https://images.unsplash.com/photo-1527325678964-54921661f888?auto=format&fit=crop&w=1200&q=80",
+    "telephone": "+919876543210",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rewari Agricultural Belt",
+      "addressLocality": "Rewari",
+      "addressRegion": "Haryana",
+      "postalCode": "123401",
+      "addressCountry": "IN"
+    },
+    "areaServed": ["Gurugram", "Delhi", "Noida", "Faridabad", "Manesar", "Rewari"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Farm Fresh Produce Collection",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Fresh Button & Oyster Mushrooms",
+            "description": "Daily dawn-harvested fresh mushrooms grown in climate-controlled farm sheds."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Trellis Dragon Fruit (Pitaya)",
+            "description": "Tree-ripened red and white flesh dragon fruit from our 8-acre orchard."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Farm Table Grapes",
+            "description": "Sweet, juicy seasonal grapes cultivated in sunny vineyard rows."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Fresh Farm Kiwi",
+            "description": "Fresh agricultural kiwi cultivated in protected micro-climate orchard blocks."
+          }
+        }
+      ]
+    }
+  }
+  </script>
+</head>
+<body class="bg-cream-100 text-forest-900 antialiased selection:bg-leaf-100 selection:text-forest-900">
+
+  <!-- Top Bar -->
+  <div class="bg-forest-900 text-cream-200 text-xs py-2 px-4 border-b border-forest-800">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+      <div class="flex items-center gap-2">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400"></span>
+        <span>Harvested at Dawn • Delivered Fresh to Gurugram, Delhi & NCR Within 24 Hours</span>
+      </div>
+      <div class="flex items-center gap-4 text-xs">
+        <a href="tel:+919876543210" class="hover:text-ghee-400 transition" data-bind-phone>+91 98765 43210</a>
+        <span class="text-forest-700">|</span>
+        <a href="index.html#order-section" class="text-ghee-400 hover:underline">Order Farm Crate</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header-glass sticky top-0 z-50 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-2xl bg-forest-800 text-cream-100 flex items-center justify-center shadow-md">
+          <svg class="w-7 h-7 text-ghee-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 3v18m-6-6c0-3.314 2.686-6 6-6s6 2.686 6 6m-9-3c0-1.657 1.343-3 3-3s3 1.343 3 3"/></svg>
+        </div>
+        <div>
+          <span class="block font-serif font-bold text-xl sm:text-2xl text-forest-900 tracking-tight" data-bind-brand-name>Rewari Farm Estates</span>
+          <span class="block text-[11px] uppercase tracking-widest text-leaf-600 font-semibold mt-1">Farm Produce • 50-Acre Fields</span>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-forest-800">
+        <a href="index.html" class="nav-link hover:text-leaf-600 transition">Home</a>
+        <a href="farm.html" class="nav-link hover:text-leaf-600 transition">Our 50-Acre Farm</a>
+        <a href="dairy.html" class="nav-link hover:text-leaf-600 transition">Dairy Products</a>
+        <a href="produce.html" class="nav-link active">Farm Produce</a>
+        <a href="about.html" class="nav-link hover:text-leaf-600 transition">About Us</a>
+        <a href="gallery.html" class="nav-link hover:text-leaf-600 transition">Farm Gallery</a>
+        <a href="contact.html" class="nav-link hover:text-leaf-600 transition">Contact & Delivery</a>
+      </nav>
+
+      <div class="hidden sm:flex items-center gap-3">
+        <button data-open-basket class="relative p-2.5 rounded-full bg-cream-200 text-forest-900 border border-cream-400">
+          <svg class="w-5 h-5 text-forest-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+          <span data-basket-count class="absolute -top-1 -right-1 bg-ghee-500 text-forest-900 text-[11px] font-extrabold w-5 h-5 rounded-full flex items-center justify-center border border-white" style="display: none;">0</span>
+        </button>
+        <a href="#produce-catalog" class="btn-primary py-2.5 px-6 text-sm">Order Produce</a>
+      </div>
+
+      <div class="flex items-center gap-2 lg:hidden">
+        <button data-open-basket class="relative p-2 rounded-xl bg-cream-200 text-forest-900 border border-cream-300">
+          <svg class="w-5 h-5 text-forest-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+          <span data-basket-count class="absolute -top-1 -right-1 bg-ghee-500 text-forest-900 text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center" style="display: none;">0</span>
+        </button>
+        <button id="mobile-menu-btn" class="p-2.5 rounded-xl bg-cream-200 text-forest-900 border border-cream-400">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="py-16 sm:py-24 bg-forest-900 text-cream-100 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-20">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1527325678964-54921661f888?auto=format&fit=crop&w=2000&q=80" alt="Dragon fruit orchard" class="w-full h-full object-cover" onerror="this.onerror=null;this.classList.add('img-fallback')">
+    </div>
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left">
+      <span class="farm-pill farm-pill-forest bg-leaf-600/30 text-emerald-400 border-leaf-400/30 mb-4">Grown on Our 50-Acre Land</span>
+      <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-cream-100">
+        Grown in Rewari Soil. Picked at Dawn.
+      </h1>
+      <p class="text-lg text-cream-200 max-w-2xl font-light leading-relaxed">
+        From climate-controlled mushroom chambers to trellis-ripened dragon fruit and sweet table grapes — authentic farm-grown agricultural produce.
+      </p>
+    </div>
+  </section>
+
+  <!-- Produce Catalog -->
+  <section id="produce-catalog" class="py-20 bg-cream-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="farm-pill farm-pill-forest mb-3">Farm Produce Catalog</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest-900 mb-4">
+          Fresh Agricultural Produce
+        </h2>
+        <p class="text-farm-muted text-base">
+          Grown on our 50-acre farm in Rewari, Haryana and delivered fresh to households and culinary kitchens in Delhi NCR.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Mushrooms Card -->
+        <div id="mushrooms" class="farm-card p-6 bg-white flex flex-col justify-between">
+          <div>
+            <div class="zoom-wrap relative h-64 rounded-2xl overflow-hidden mb-5">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80" alt="Fresh Farm Mushrooms" class="w-full h-full object-cover" onerror="this.onerror=null;this.classList.add('img-fallback')">
+              <span class="absolute top-3 left-3 farm-pill farm-pill-forest shadow">Harvested Daily</span>
+            </div>
+            <h3 class="font-serif font-bold text-2xl text-forest-900 mb-1">Fresh Farm Mushrooms</h3>
+            <p class="text-xs font-semibold text-leaf-600 mb-3">Button & Oyster Varieties</p>
+            <p class="text-xs text-farm-muted leading-relaxed mb-4">
+              Cultivated in precision climate-controlled rooms on our farm. Plump, firm, bright white caps picked at dawn with neatly trimmed stems.
+            </p>
+            <div class="bg-cream-100 p-3 rounded-xl border border-cream-300 text-xs text-forest-800 space-y-1 mb-4">
+              <div class="flex justify-between"><span><strong>Pack Sizes:</strong></span><span>200g Punnet / 500g / 1kg Box</span></div>
+              <div class="flex justify-between"><span><strong>Growing Setup:</strong></span><span>Climate Chambers (Rewari)</span></div>
+              <div class="flex justify-between"><span><strong>Freshness:</strong></span><span>Packed within 12 hours of harvest</span></div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 pt-2">
+            <button data-quick-view-id="mushrooms" class="btn-secondary py-2.5 px-4 text-xs flex-1">Quick View</button>
+            <button data-add-to-basket="mushrooms" data-default-pack="200 g Punnet" class="btn-primary py-2.5 px-5 text-xs flex-1">Add to Basket</button>
+          </div>
+        </div>
+
+        <!-- Dragon Fruit Card -->
+        <div id="dragon-fruit" class="farm-card p-6 bg-white flex flex-col justify-between">
+          <div>
+            <div class="zoom-wrap relative h-64 rounded-2xl overflow-hidden mb-5">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1527325678964-54921661f888?auto=format&fit=crop&w=800&q=80" alt="Dragon fruit pitaya" class="w-full h-full object-cover" onerror="this.onerror=null;this.classList.add('img-fallback')">
+              <span class="absolute top-3 left-3 farm-pill farm-pill-ghee shadow">Trellis Orchard</span>
+            </div>
+            <h3 class="font-serif font-bold text-2xl text-forest-900 mb-1">Farm Dragon Fruit (Pitaya)</h3>
+            <p class="text-xs font-semibold text-ghee-600 mb-3">Red & White Flesh Varieties</p>
+            <p class="text-xs text-farm-muted leading-relaxed mb-4">
+              Cultivated along concrete trellis lines in our Rewari orchard. Allowed to ripen on the vine to achieve natural sweetness, rich color, and antioxidant density.
+            </p>
+            <div class="bg-cream-100 p-3 rounded-xl border border-cream-300 text-xs text-forest-800 space-y-1 mb-4">
+              <div class="flex justify-between"><span><strong>Pack Sizes:</strong></span><span>1kg (2-3 pcs) / 2.5kg Crate</span></div>
+              <div class="flex justify-between"><span><strong>Orchard:</strong></span><span>8-Acre Trellis Block</span></div>
+              <div class="flex justify-between"><span><strong>Protection:</strong></span><span>Breathable fruit foam sleeve</span></div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 pt-2">
+            <button data-quick-view-id="dragon-fruit" class="btn-secondary py-2.5 px-4 text-xs flex-1">Quick View</button>
+            <button data-add-to-basket="dragon-fruit" data-default-pack="1 kg (2-3 Fruits)" class="btn-ghee py-2.5 px-5 text-xs flex-1">Add to Basket</button>
+          </div>
+        </div>
+
+        <!-- Table Grapes Card -->
+        <div id="grapes" class="farm-card p-6 bg-white flex flex-col justify-between">
+          <div>
+            <div class="zoom-wrap relative h-64 rounded-2xl overflow-hidden mb-5">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1537640538966-79f369143f8f?auto=format&fit=crop&w=800&q=80" alt="Sweet table grapes" class="w-full h-full object-cover" onerror="this.onerror=null;this.classList.add('img-fallback')">
+              <span class="absolute top-3 left-3 farm-pill farm-pill-forest shadow">Vineyard Block</span>
+            </div>
+            <h3 class="font-serif font-bold text-2xl text-forest-900 mb-1">Farm Table Grapes</h3>
+            <p class="text-xs font-semibold text-leaf-600 mb-3">Sweet & Juicy Seasonal Bunches</p>
+            <p class="text-xs text-farm-muted leading-relaxed mb-4">
+              Cultivated in sunny vineyard rows on our farm. Plump, juicy berries with their natural protective bloom, harvested directly into protective punnets.
+            </p>
+            <div class="bg-cream-100 p-3 rounded-xl border border-cream-300 text-xs text-forest-800 space-y-1 mb-4">
+              <div class="flex justify-between"><span><strong>Pack Sizes:</strong></span><span>500g Punnet / 1kg Crate</span></div>
+              <div class="flex justify-between"><span><strong>Harvest Window:</strong></span><span>Seasonal Spring/Summer</span></div>
+              <div class="flex justify-between"><span><strong>Ripening:</strong></span><span>100% Vine-Ripened</span></div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 pt-2">
+            <button data-quick-view-id="grapes" class="btn-secondary py-2.5 px-4 text-xs flex-1">Quick View</button>
+            <button data-add-to-basket="grapes" data-default-pack="500 g Punnet" class="btn-primary py-2.5 px-5 text-xs flex-1">Add to Basket</button>
+          </div>
+        </div>
+
+        <!-- Kiwi Card -->
+        <div id="kiwi" class="farm-card p-6 bg-white flex flex-col justify-between">
+          <div>
+            <div class="zoom-wrap relative h-64 rounded-2xl overflow-hidden mb-5">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1618897996318-5a901fa6ca71?auto=format&fit=crop&w=800&q=80" alt="Fresh Kiwi" class="w-full h-full object-cover" onerror="this.onerror=null;this.classList.add('img-fallback')">
+              <span class="absolute top-3 left-3 farm-pill farm-pill-ghee shadow">Orchard Picked</span>
+            </div>
+            <h3 class="font-serif font-bold text-2xl text-forest-900 mb-1">Fresh Farm Kiwi</h3>
+            <p class="text-xs font-semibold text-ghee-600 mb-3">Nutrient-Dense Orchard Harvest</p>
+            <p class="text-xs text-farm-muted leading-relaxed mb-4">
+              Grown in protected micro-climate orchard zones in Rewari. Picked at optimal maturity so they develop succulent, tangy-sweet flavour at home.
+            </p>
+            <div class="bg-cream-100 p-3 rounded-xl border border-cream-300 text-xs text-forest-800 space-y-1 mb-4">
+              <div class="flex justify-between"><span><strong>Pack Sizes:</strong></span><span>500g (4-6 Pcs) / 1kg Pack</span></div>
+              <div class="flex justify-between"><span><strong>Nutrients:</strong></span><span>High Vitamin C & Enzymes</span></div>
+              <div class="flex justify-between"><span><strong>Packaging:</strong></span><span>Paper pulp tray</span></div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 pt-2">
+            <button data-quick-view-id="kiwi" class="btn-secondary py-2.5 px-4 text-xs flex-1">Quick View</button>
+            <button data-add-to-basket="kiwi" data-default-pack="500 g Pack (4-6 Pcs)" class="btn-ghee py-2.5 px-5 text-xs flex-1">Add to Basket</button>
+          </div>
+        </div>
+
+        <!-- Seasonal Farm Box Card -->
+        <div id="seasonal-box" class="farm-card p-6 bg-white flex flex-col justify-between md:col-span-2 lg:col-span-2">
+          <div>
+            <div class="zoom-wrap relative h-64 rounded-2xl overflow-hidden mb-5">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1610348725531-843dff563e2c?auto=format&fit=crop&w=1200&q=80" alt="Seasonal farm crate" class="w-full h-full object-cover" onerror="this.onerror=null;this.classList.add('img-fallback')">
+              <span class="absolute top-3 left-3 farm-pill farm-pill-forest shadow">Best Value Weekly</span>
+            </div>
+            <h3 class="font-serif font-bold text-2xl text-forest-900 mb-1">Seasonal Farm Harvest Crate</h3>
+            <p class="text-xs font-semibold text-leaf-600 mb-3">Curated Weekly Mix of Produce & Dairy</p>
+            <p class="text-xs text-farm-muted leading-relaxed mb-4">
+              A farm-curated harvest box containing fresh button mushrooms, seasonal dragon fruit or grapes, kiwi, and farm curd or white butter. Assembled fresh on delivery morning.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 bg-cream-100 p-3 rounded-xl border border-cream-300 text-xs text-forest-800 mb-4">
+              <div><strong>Crate Options:</strong> Standard (3-4kg) / Family (6-7kg)</div>
+              <div><strong>Delivery Slot:</strong> Bi-Weekly NCR Delivery</div>
+              <div><strong>Freshness:</strong> Plucked day of delivery</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 pt-2">
+            <button data-quick-view-id="seasonal-box" class="btn-secondary py-2.5 px-4 text-xs flex-1">Quick View</button>
+            <button data-add-to-basket="seasonal-box" data-default-pack="Standard Crate (3-4 kg)" class="btn-primary py-2.5 px-5 text-xs flex-1">Add Crate to Basket</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Seasonal Harvest Calendar -->
+  <section class="py-16 bg-cream-200 border-t border-cream-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="farm-pill farm-pill-ghee mb-2">Harvest Schedule</span>
+        <h3 class="font-serif text-3xl font-bold text-forest-900 mb-2">Our Rewari Farm Seasonal Calendar</h3>
+        <p class="text-xs text-farm-muted">Track when our farm crops reach peak harvest maturity in Haryana.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-white p-5 rounded-2xl border border-cream-300 shadow-sm">
+          <span class="text-2xl block mb-2">🍄</span>
+          <h4 class="font-bold text-forest-900 text-base mb-1">Mushrooms</h4>
+          <span class="text-xs font-bold text-emerald-600 bg-leaf-100 px-2 py-0.5 rounded">All Year Round</span>
+          <p class="text-xs text-farm-muted mt-2">Continuous indoor climate-controlled cultivation in insulated sheds.</p>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-cream-300 shadow-sm">
+          <span class="text-2xl block mb-2">🐉</span>
+          <h4 class="font-bold text-forest-900 text-base mb-1">Dragon Fruit</h4>
+          <span class="text-xs font-bold text-amber-700 bg-ghee-100 px-2 py-0.5 rounded">June to November</span>
+          <p class="text-xs text-farm-muted mt-2">Multiple flowering flushes across monsoon and early winter season.</p>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-cream-300 shadow-sm">
+          <span class="text-2xl block mb-2">🍇</span>
+          <h4 class="font-bold text-forest-900 text-base mb-1">Table Grapes</h4>
+          <span class="text-xs font-bold text-leaf-600 bg-leaf-100 px-2 py-0.5 rounded">March to May</span>
+          <p class="text-xs text-farm-muted mt-2">Spring sun-ripened clusters with natural bloom.</p>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-cream-300 shadow-sm">
+          <span class="text-2xl block mb-2">🥝</span>
+          <h4 class="font-bold text-forest-900 text-base mb-1">Fresh Kiwi</h4>
+          <span class="text-xs font-bold text-amber-700 bg-ghee-100 px-2 py-0.5 rounded">October to January</span>
+          <p class="text-xs text-farm-muted mt-2">Winter-harvested from protected micro-climate orchard blocks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-forest-900 text-cream-200 pt-16 pb-24 sm:pb-16 border-t border-forest-800 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div>
+        <span class="font-serif font-bold text-xl text-cream-100" data-bind-brand-name>Rewari Farm Estates</span>
+        <p class="text-xs text-cream-400 mt-1">Farm Fresh Produce • Rewari, Haryana</p>
+      </div>
+      <div class="flex items-center gap-4 text-xs">
+        <a href="index.html" class="hover:text-ghee-400">Home</a>
+        <a href="farm.html" class="hover:text-ghee-400">Our Farm</a>
+        <a href="dairy.html" class="hover:text-ghee-400">Dairy</a>
+        <a href="contact.html" class="hover:text-ghee-400">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Bottom Action Bar -->
+  <div class="mobile-action-bar flex sm:hidden items-center justify-between gap-2">
+    <a href="tel:+919876543210" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-cream-200 text-forest-900 font-bold text-xs border border-cream-400">
+      <svg class="w-4 h-4 text-forest-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+      <span>Call Farm</span>
+    </a>
+    <a href="https://wa.me/919876543210?text=Hello%20Rewari%20Farm%20Estates!%20I%20would%20like%20to%20order%20fresh%20farm%20produce." target="_blank" class="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-emerald-600 text-white font-bold text-xs shadow-md">
+      <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 
+9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 
+3.648 3.742-.981z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+    <button data-open-basket class="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-forest-800 text-white font-bold text-xs">
+      <span>Basket (<span data-basket-count>0</span>)</span>
+    </button>
+  </div>
+
+  <!-- Modals & Scripts -->
+  <div id="mobile-menu-backdrop" class="slideover-backdrop"></div>
+  <div id="mobile-menu-drawer" class="slideover-panel">
+    <div class="p-5 border-b border-cream-300 flex items-center justify-between">
+      <span class="font-serif font-bold text-lg text-forest-900">Rewari Farm Estates</span>
+      <button id="mobile-menu-close" class="p-2 rounded-lg bg-cream-200 text-forest-900">✕</button>
+    </div>
+    <div class="p-6 space-y-4 font-semibold text-forest-900">
+      <a href="index.html" class="block py-2 border-b border-cream-200">Home</a>
+      <a href="farm.html" class="block py-2 border-b border-cream-200">Our 50-Acre Farm</a>
+      <a href="dairy.html" class="block py-2 border-b border-cream-200">Dairy Products</a>
+      <a href="produce.html" class="block py-2 border-b border-cream-200 text-leaf-600">Farm Produce</a>
+      <a href="about.html" class="block py-2 border-b border-cream-200">About Us</a>
+      <a href="gallery.html" class="block py-2 border-b border-cream-200">Farm Gallery</a>
+      <a href="contact.html" class="block py-2 border-b border-cream-200">Contact & Delivery</a>
+    </div>
+  </div>
+
+  <div id="basket-backdrop" class="slideover-backdrop"></div>
+  <div id="basket-drawer" class="slideover-panel">
+    <div class="p-5 border-b border-cream-300 flex items-center justify-between bg-cream-100">
+      <h4 class="font-serif font-bold text-lg text-forest-900">Your Farm Basket</h4>
+      <button id="basket-close" class="p-2 rounded-lg bg-cream-200 text-forest-900">✕</button>
+    </div>
+    <div class="flex-1 overflow-y-auto p-5" id="basket-items-list"></div>
+    <div id="basket-empty-state" class="p-8 text-center text-farm-muted text-xs" style="display: none;">
+      <p class="mb-2">Your basket is currently empty.</p>
+      <p>Add fresh mushrooms, dragon fruit, or grapes to begin your harvest order!</p>
+    </div>
+    <div id="basket-checkout-section" class="p-5 border-t border-cream-300 bg-cream-50 space-y-3" style="display: none;">
+      <input type="text" id="basket-area-input" placeholder="Your NCR Locality (e.g. Golf Course Rd, Gurugram)..." class="farm-input text-xs py-2">
+      <button id="basket-whatsapp-send" class="btn-whatsapp w-full py-3 text-sm font-bold">Send Enquiry on WhatsApp</button>
+    </div>
+  </div>
+
+  <!-- Quick View Modal -->
+  <div id="quick-view-backdrop" class="slideover-backdrop"></div>
+  <div id="quick-view-modal" class="lightbox-modal">
+    <div class="bg-white rounded-3xl max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto p-6 sm:p-8 shadow-2xl relative">
+      <button id="quick-view-close" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-cream-200 text-forest-900 flex items-center justify-center">✕</button>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="rounded-2xl overflow-hidden bg-cream-200 h-64"><img loading="lazy" id="qv-image" src="" alt="" class="w-full h-full object-cover" onerror="this.onerror=null;this.classList.add('img-fallback')"></div>
+        <div class="space-y-3">
+          <span id="qv-category" class="farm-pill farm-pill-forest">Produce</span>
+          <h3 id="qv-title" class="font-serif font-bold text-2xl text-forest-900"></h3>
+          <p id="qv-subtitle" class="text-xs font-semibold text-leaf-600"></p>
+          <p id="qv-description" class="text-xs text-farm-muted leading-relaxed"></p>
+          <div id="qv-packs" class="flex flex-wrap gap-2 pt-2"></div>
+          <p id="qv-origin" class="text-xs text-farm-muted pt-2 border-t border-cream-200"></p>
+          <div class="flex items-center gap-2 pt-4">
+            <button id="qv-basket-btn" class="btn-primary py-2.5 px-4 text-xs flex-1">Add to Basket</button>
+            <button id="qv-whatsapp-btn" class="btn-whatsapp py-2.5 px-4 text-xs flex-1">WhatsApp</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/farm-config.js"></script>
+  <script src="js/basket.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
